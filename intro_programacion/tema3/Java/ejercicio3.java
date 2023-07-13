@@ -1,6 +1,6 @@
 package Java;
 
-public class ejercicio{
+public class ejercicio3{
 
     public static void main(String[] args) {
         coche micoche= new coche();
@@ -15,12 +15,10 @@ public class ejercicio{
     }
     
     public static int suma(int a, int b, int c){
-        return a +b +c;
+        return a + b + c;
     }
-    
-}
 
-class coche {
+    public static class coche {
     
     public int puertas = 4;
     //esto indica cuantas puertas tiene mi coche
@@ -47,4 +45,7 @@ class coche {
     }
     
 }
+}
+
+
 
