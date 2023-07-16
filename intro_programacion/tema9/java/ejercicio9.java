@@ -1,6 +1,6 @@
 package intro_programacion.tema9.java;
 
-public class ejercicio8 {
+public class ejercicio9 {
     public static void main(String[] args) {
         System.out.println("--------------------------------------------------");
         System.out.println("ACTIVIDAD 1:");
