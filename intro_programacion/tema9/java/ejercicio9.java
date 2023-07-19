@@ -1,4 +1,4 @@
-package intro_programacion.tema9.java;
+package tema9.java;
 
 public class ejercicio9 {
     public static void main(String[] args) {

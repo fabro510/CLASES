@@ -1,4 +1,4 @@
-package intro_programacion.tema8.java;
+package tema8.java;
 
 class ejercicio8{
     public static void main(String[] args){
