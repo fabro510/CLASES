@@ -1,4 +1,4 @@
-package tema9.java;
+package tema9;
 
 public class ejercicio9 {
     public static void main(String[] args) {
@@ -43,6 +43,7 @@ public class ejercicio9 {
         System.out.println("--------------------------------------------------");
     }
 }
+
 class persona{
     String nombre;
     int edad;

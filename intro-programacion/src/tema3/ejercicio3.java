@@ -1,7 +1,6 @@
-package Java;
+package tema3;
 
-public class ejercicio3{
-
+public class ejercicio3 {
     public static void main(String[] args) {
         coche micoche= new coche();
         System.out.println("EJERCICIO PARTE 1:");
@@ -13,13 +12,13 @@ public class ejercicio3{
         System.out.println("-Cantidad de puertas de mi coche despues de los cambios = " + micoche.puertasmicoche());
         System.out.println("                    ");
     }
-    
+
     public static int suma(int a, int b, int c){
         return a + b + c;
     }
-
-    public static class coche {
-    
+}
+class coche {
+    //propiedades
     public int puertas = 4;
     //esto indica cuantas puertas tiene mi coche
     
@@ -43,9 +42,4 @@ public class ejercicio3{
         this.puertas--;
         System.out.println("/Se quito una puerta. Tu cantidad de puertas total de puertas ahora es = " + puertasmicoche());
     }
-    
 }
-}
-
-
-

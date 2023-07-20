@@ -1,6 +1,6 @@
-package tema8.java;
+package tema8;
 
-class ejercicio8{
+public class ejercicio8 {
     public static void main(String[] args){
         System.out.println("--------------------------------------------------");
         System.out.println("ACTIVIDAD 1:");
@@ -21,8 +21,8 @@ class ejercicio8{
 class personas{
     private int edad;
     private String nombre;
-    private int telefono;
-
+    private long telefono;
+    //edad
     public void setEdad(int edad){
         this.edad=edad;
         System.out.println(" /se ingreso edad");
@@ -30,15 +30,15 @@ class personas{
     public int getEdad(){
         return this.edad;
     }
-
-    public void setTelefono(int telefono){
+    //telefono
+    public void setTelefono(long telefono){
         this.telefono=telefono;
         System.out.println(" /se ingreso telefono");
     }
-    public int getTelefono(){
+    public long getTelefono(){
         return this.telefono;
     }
-
+    //nombre
     public void setNombre(String nombre){
         this.nombre=nombre;
         System.out.println(" /se ingreso nombre");

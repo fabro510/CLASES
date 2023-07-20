@@ -1,4 +1,6 @@
-public class ejercicio4{
+package tema4;
+
+public class ejercicio4 {
     public static void main(String[] args){
         System.out.println("ACTIVIDAD 1:");
         System.out.println("                ");
