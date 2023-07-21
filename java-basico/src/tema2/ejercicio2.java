@@ -11,16 +11,15 @@ public class ejercicio2 {
         mostrar(" El precio con iva incluido es: "+Total);
         barrera();
     }
+    
     static int precio=100;
     static int iva=35;
+
     static int calcularIva(int precio){
         mostrar(" /calculando---");
         precio+=precio*iva/100;
         return precio;
     }
-
-
-
     
     public static void mostrar(String texto){
         System.out.println(texto);

@@ -18,15 +18,19 @@ public class ejercicio1 {
 
         Integer j =null;
 
-        System.out.println("variable byte: "+a);
-        System.out.println("variable short: "+b);
-        System.out.println("variable int: "+c);
-        System.out.println("variable long: "+d);
-        System.out.println("variable float: "+e);
-        System.out.println("variable double: "+f);
-        System.out.println("variable char: "+g);
-        System.out.println("variable booblean: "+h);
-        System.out.println("variable sring: "+i);
-        System.out.println("variable integer: "+j);
+        mostrar("variable byte: "+a);
+        mostrar("variable short: "+b);
+        mostrar("variable int: "+c);
+        mostrar("variable long: "+d);
+        mostrar("variable float: "+e);
+        mostrar("variable double: "+f);
+        mostrar("variable char: "+g);
+        mostrar("variable booblean: "+h);
+        mostrar("variable sring: "+i);
+        mostrar("variable integer: "+j);
+    }
+    
+    public static void mostrar(String texto){
+        System.out.println(texto);
     }
 }
